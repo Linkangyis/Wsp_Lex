@@ -1,4 +1,25 @@
-if (i<=1){
+for i=0;i<=10;i++{
+    print(123)
+}
+function name($a,$b){
+
 
 }
+
+curl_get()
+
+curl_post()
+
+url_set()
+
+
+name();
+
+class test($a,$b){
+    public $a
+    public function rtest(){
+        print($a)
+    }
+}
+$h=new test(1,2)
 $h->rtest
