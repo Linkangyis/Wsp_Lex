@@ -25,6 +25,8 @@ func token_map()(map[string]int){
     maps["-"] = 22;
     maps["eval"] = 23;
     maps["len"] = 24;
+    maps["if"] = 25;
+    maps["else"] = 26;
     return maps;
 }
 func token_text_map()(map[string]string){
@@ -52,5 +54,7 @@ func token_text_map()(map[string]string){
     maps["-"] = "CLASS_START_A";
     maps["eval"] = "H_EVAL";
     maps["len"] = "H_LEN";
+    maps["if"] = "H_IF";
+    maps["else"] = "H_IF_ELSE";
     return maps;
 }
